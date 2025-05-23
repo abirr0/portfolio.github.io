@@ -1,0 +1,65 @@
+.name{
+    justify-content: center;
+    display: flex;
+   
+    background-color: azure;
+}
+.topnav{
+    offset-distance: 10px;
+    display: flex;
+    justify-content: flex-end;
+    text-indent: 50px;
+    background-color: azure;    
+}
+.card{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #033569;
+}
+
+#currentAge {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
